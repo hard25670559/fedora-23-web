@@ -11,7 +11,7 @@
     * 下載連結：https://www.virtualbox.org/
 
 
-# 虛擬機安裝步驟
+# 安裝虛擬機步驟
 開始以下步驟前，請先開起git bash再操作。<br>
 以下流程安裝完畢後，網頁即可預覽，瀏覽網址為`localhost`  
 1. `mkdir ~/vagrant`  
@@ -19,6 +19,11 @@
 3. `git clone https://github.com/hard25670559/fedora-23-web.git`  
 4. `cd ~/vagrant/fedora-23-web`  
 5. `vagrant up` 必須要等一段時間，視網路狀況  
+
+# 虛擬機內部環境設定 `需自行安裝，不需再次安裝`
+
+* `composer global require "laravel/installer"`<br>
+預先安裝好laravel，而後可使用laravel指令新增專案
 
 # 虛擬機軟體安裝 `已安裝完畢，不需再次安裝`
 * `vim`<br>
@@ -47,9 +52,6 @@ php倉儲
 
 * `chkconfig httpd on`<br>
 開機使啟動網頁伺服器
-
-* `composer global require "laravel/installer"`<br>
-預先安裝好laravel，而後可使用laravel指令新增專案
 
 * `composer install`<br>
 安裝PHP相依套件<br>
