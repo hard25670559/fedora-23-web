@@ -20,10 +20,13 @@
 4. `cd ~/vagrant/fedora-23-web`  
 5. `vagrant up` 必須要等一段時間，視網路狀況  
 
-# 虛擬機內部環境設定 `需自行安裝，不需再次安裝`
+# 虛擬機內部環境設定 `需自行安裝`
+
+* `composer global require "laravel/installer"`<br> //暫未修改
+預先安裝好laravel，而後可使用laravel指令新增專案
 
 * `composer global require "laravel/installer"`<br>
-預先安裝好laravel，而後可使用laravel指令新增專案
+* 設定laravel成環境變數
 
 # 虛擬機軟體安裝 `已安裝完畢，不需再次安裝`
 * `vim`<br>
