@@ -17,11 +17,8 @@
 1. `mkdir ~/vagrant`  
 2. `cd ~/vagrant/`  
 3. `git clone http://git.cdo.com.tw/HardAnonymous/fedora-23-web.git`  
-4. `mkdir ~/vagrant/fedora-23-web/web`  
-5. `cd ~/vagrant/fedora-23-web/web`  
-6. `git clone http://git.cdo.com.tw/HardAnonymous/laravel.git`  
-7. `cd ~/vagrant/fedora-23-web`  
-8. `vagrant up` 必須要等一段時間，視網路狀況  
+4. `cd ~/vagrant/fedora-23-web`  
+5. `vagrant up` 必須要等一段時間，視網路狀況  
 
 # 虛擬機軟體安裝 `已安裝完畢，不需再次安裝`
 * `vim`<br>
