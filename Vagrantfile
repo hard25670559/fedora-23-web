@@ -69,15 +69,9 @@ Vagrant.configure(2) do |config|
     sudo dnf install vim -y
     sudo dnf install httpd mysql mysql-server -y
     sudo dnf install php php-mysql node npm composer -y
-    sudo mv /etc/httpd/conf/httpd.conf ~/
-    sudo mv /vagrant/httpd.conf /etc/httpd/conf/
     sudo chkconfig mariadb on
     sudo chkconfig httpd on
     composer global require "laravel/installer=~1.1"
-    cd /web/laravel/
-    composer install
-    npm cache clear
-    npm install
     sudo service mariadb start
     sudo service httpd start
   SHELL
