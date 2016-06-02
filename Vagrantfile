@@ -71,6 +71,7 @@ Vagrant.configure(2) do |config|
     sudo dnf install php php-mysql node npm composer -y
     sudo chkconfig mariadb on
     sudo chkconfig httpd on
+    su - vagrant
     composer global require "laravel/installer"
     sudo service mariadb start
     sudo service httpd start
