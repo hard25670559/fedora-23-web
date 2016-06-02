@@ -16,7 +16,7 @@
 以下流程安裝完畢後，網頁即可預覽，瀏覽網址為`localhost`  
 1. `mkdir ~/vagrant`  
 2. `cd ~/vagrant/`  
-3. `git clone http://git.cdo.com.tw/HardAnonymous/fedora-23-web.git`  
+3. `git clone https://github.com/hard25670559/fedora-23-web.git`  
 4. `cd ~/vagrant/fedora-23-web`  
 5. `vagrant up` 必須要等一段時間，視網路狀況  
 
