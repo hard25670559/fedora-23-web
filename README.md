@@ -13,35 +13,35 @@
 
 # 虛擬機安裝步驟
 開始以下步驟前，請先開起git bash再操作。<br>
-以下流程安裝完畢後，網頁即可預覽，瀏覽網址為`localhost`
-1. `mkdir ~/vagrant`
-2. `cd ~/vagrant/`
-3. `git clone http://git.cdo.com.tw/HardAnonymous/fedora-23-web.git`
-4. `mkdir ~/vagrant/fedora-23-web/web`
-5. `cd ~/vagrant/fedora-23-web/web`
-6. `git clone http://git.cdo.com.tw/HardAnonymous/laravel.git`
-7. `cd ~/vagrant/fedora-23-web`
-8. `vagrant up` 必須要等一段時間，視網路狀況
+以下流程安裝完畢後，網頁即可預覽，瀏覽網址為`localhost`  
+1. `mkdir ~/vagrant`  
+2. `cd ~/vagrant/`  
+3. `git clone http://git.cdo.com.tw/HardAnonymous/fedora-23-web.git`  
+4. `mkdir ~/vagrant/fedora-23-web/web`  
+5. `cd ~/vagrant/fedora-23-web/web`  
+6. `git clone http://git.cdo.com.tw/HardAnonymous/laravel.git`  
+7. `cd ~/vagrant/fedora-23-web`  
+8. `vagrant up` 必須要等一段時間，視網路狀況  
 
 # 虛擬機軟體安裝 `已安裝完畢，不需再次安裝`
 * `vim`<br>
-VI的強化文字編輯器
+VI的強化文字編輯器  
 * `httpd`<br>
-網頁伺服器
+網頁伺服器  
 * `mysql`<br>
-資料戶文字操作介面
+資料戶文字操作介面  
 * `mysql-server`<br>
-資料庫伺服器
+資料庫伺服器  
 * `php`<br>
-網頁外掛
+網頁外掛  
 * `php-mysql`<br>
-網頁外掛
+網頁外掛  
 * `node`<br>
-JavaScript執行環境
+JavaScript執行環境  
 * `npm`<br>
-JavaScript倉儲
+JavaScript倉儲  
 * `composer`<br>
-php倉儲
+php倉儲  
 
 # 虛擬機設定 `已設定完畢，不需再次設定`
 
