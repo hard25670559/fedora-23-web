@@ -32,9 +32,8 @@
 
 * `vim ~/.bash_profile`<br>
 _PATH=$PATH:$HOME/.local/bin:#HOME/bin_ 後增加 _:$HOME/.config/composer/vandor/laravel/installer_
-```
-PATH=$PATH:$HOME/.local/bin:#HOME/bin:$HOME/.config/composer/vandor/laravel/installer
-```
+
+`PATH=$PATH:$HOME/.local/bin:#HOME/bin:$HOME/.config/composer/vandor/laravel/installer`<br>
 設定laravel成環境變數
 
 # 虛擬機軟體安裝 <br>
