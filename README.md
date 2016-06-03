@@ -25,7 +25,7 @@
 
 # 虛擬機內部環境設定 `需自行安裝`
 
-* `composer global require "laravel/installer"`<br> //暫未修改
+* `composer global require "laravel/installer"`  
 預先安裝好laravel，而後可使用laravel指令新增專案
 
 * `vim ~/.bash_profile`<br>
