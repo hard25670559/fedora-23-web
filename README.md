@@ -25,8 +25,12 @@
 * `composer global require "laravel/installer"`<br> //暫未修改
 預先安裝好laravel，而後可使用laravel指令新增專案
 
-* `composer global require "laravel/installer"`<br>
-* 設定laravel成環境變數
+* `vim ~/.bash_profile"`<br>
+PATH=$PATH:$HOME/.local/bin:#HOME/bin 後增加 :$HOME/.config/composer/vandor/laravel/installer
+```
+PATH=$PATH:$HOME/.local/bin:#HOME/bin:$HOME/.config/composer/vandor/laravel/installer
+```
+設定laravel成環境變數
 
 # 虛擬機軟體安裝 `已安裝完畢，不需再次安裝`
 * `vim`<br>
