@@ -1,4 +1,4 @@
-# 環境安裝 `有標記版本的，就請物下載更舊的版本`
+# 環境安裝 `有標記版本的，就請誤下載更舊的版本`
 
 * # Git
    * 下載連結：https://git-scm.com/
@@ -23,7 +23,7 @@
 4. `cd ~/vagrant/fedora-23-web`  
 5. `vagrant up` 必須要等一段時間，視網路狀況  
 
-# 虛擬機內部環境設定 `需自行安裝`
+# 虛擬機內部環境設定 `需自行安裝，請在虛擬機內部操作`
 
 * `composer global require "laravel/installer"`  
 預先安裝好laravel，而後可使用laravel指令新增專案
