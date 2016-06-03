@@ -33,8 +33,8 @@
 * `vim ~/.bash_profile`<br>
 
 ```bash
-10) PATH=$PATH:$HOME/.local/bin:#HOME/bin #改為以下
-10) PATH=$PATH:$HOME/.local/bin:#HOME/bin:$HOME/.config/composer/vandor/laravel/installer
+第10行 PATH=$PATH:$HOME/.local/bin:#HOME/bin #改為以下
+第10行 PATH=$PATH:$HOME/.local/bin:#HOME/bin:$HOME/.config/composer/vandor/laravel/installer
 ```
 
 設定laravel成環境變數
@@ -84,7 +84,7 @@ php倉儲
 # 虛擬機掛載
 如果有出現mount問題，請在`git bash`底下做以下指令
 
-```
+```bash
 $ vagrant plugin install vagrant-vbguest
 $ vagrant up
 ```
