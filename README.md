@@ -31,9 +31,12 @@
 預先安裝好laravel，而後可使用laravel指令新增專案
 
 * `vim ~/.bash_profile`<br>
-_PATH=$PATH:$HOME/.local/bin:#HOME/bin_ 後增加 _:$HOME/.config/composer/vandor/laravel/installer_
 
-`PATH=$PATH:$HOME/.local/bin:#HOME/bin:$HOME/.config/composer/vandor/laravel/installer`<br>
+```bash
+10) PATH=$PATH:$HOME/.local/bin:#HOME/bin #改為以下
+10) PATH=$PATH:$HOME/.local/bin:#HOME/bin:$HOME/.config/composer/vandor/laravel/installer
+```
+
 設定laravel成環境變數
 
 # 虛擬機軟體安裝 <br>
