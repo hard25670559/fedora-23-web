@@ -1,4 +1,5 @@
-# 環境安裝 `有標記版本的，就請誤下載更舊的版本`
+# 環境安裝<br>
+`有標記版本的，就請誤下載更舊的版本`
 
 * # Git
    * 下載連結：https://git-scm.com/
@@ -14,7 +15,7 @@
     * 下載連結：https://www.virtualbox.org/
 
 
-# 安裝虛擬機步驟
+# 安裝虛擬機步驟<br>
 開始以下步驟前，請先開起git bash再操作。<br>
 以下流程安裝完畢後，網頁即可預覽，瀏覽網址為`localhost`  
 1. `mkdir ~/vagrant`  
@@ -23,7 +24,8 @@
 4. `cd ~/vagrant/fedora-23-web`  
 5. `vagrant up` 必須要等一段時間，視網路狀況  
 
-# 虛擬機內部環境設定 `需自行安裝，請在虛擬機內部操作`
+# 虛擬機內部環境設定<br>
+`需自行安裝，請在虛擬機內部操作`
 
 * `composer global require "laravel/installer"`  
 預先安裝好laravel，而後可使用laravel指令新增專案
@@ -35,7 +37,8 @@ PATH=$PATH:$HOME/.local/bin:#HOME/bin:$HOME/.config/composer/vandor/laravel/inst
 ```
 設定laravel成環境變數
 
-# 虛擬機軟體安裝 `已安裝完畢，不需再次安裝`
+# 虛擬機軟體安裝 <br>
+`已安裝完畢，不需再次安裝`
 * `vim`<br>
 VI的強化文字編輯器  
 * `httpd`<br>
@@ -55,7 +58,8 @@ JavaScript倉儲
 * `composer`<br>
 php倉儲  
 
-# 虛擬機設定 `已設定完畢，不需再次設定`
+# 虛擬機設定<br>
+`已設定完畢，不需再次設定`
 
 * `chkconfig mariadb on`<br>
 開機時啟動資料庫伺服器
