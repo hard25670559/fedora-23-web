@@ -16,7 +16,7 @@
 
 
 # 安裝虛擬機步驟<br>
-開始以下步驟前，請先開起git bash再操作。<br>
+開始以下步驟前，請先開起`git bash`再操作。<br>
 以下流程安裝完畢後，網頁即可預覽，瀏覽網址為`localhost`  
 1. `mkdir ~/vagrant`  
 2. `cd ~/vagrant/`  
