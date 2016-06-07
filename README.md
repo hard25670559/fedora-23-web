@@ -12,7 +12,7 @@
 * # Vagrant
     * 功能：加強型虛擬機
     * 最小版本：`1.8.1`
-    * 下載連結：https://www.virtualbox.org/
+    * 下載連結：https://www.vagrantup.com
 
 
 # 安裝虛擬機步驟<br>
